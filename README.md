@@ -15,28 +15,29 @@ Following DCSS documentation block available,
 :description:, :html:, :modifiers:, :version:, :experimental:, :deprecated:, :compatible:
 
     /* 
-      :description: 
-      This is Buttons styles sheet 
+    :description: 
+    This is Buttons styles sheet 
 
-      :modifiers:
-      .btn    - Standard button with gradient
-      .btn-success - Green button (Indicates a successful or positive action)
+    :modifiers:
+    .btn    - Standard button with gradient
+    .btn-success - Green button (Indicates a successful or positive action)
 
-      :html:
-      <div>
-        <p>Exmaple</p>
-      </div>
+    :html:
+    <div>
+      <p>Exmaple</p>
+    </div>
 
-      :experimental:
-      This CSS [experimental.css] is not available for development
+    :experimental:
+    This CSS [experimental.css] is not available for development
 
-      :deprecated:
-      We'll drop support for these elements from July 30, 2012. See the commit [ULR](http://sources.com/path/to/20120830/commit)
+    :deprecated:
+    We'll drop support for these elements from July 30, 2012. 
+    See the commit [ULR](http://sources.com/path/to/20120830/commit)
 
-      :compatible: 
-      in IE6+, Firefox 2+, Safari 4+.
+    :compatible: 
+    in IE6+, Firefox 2+, Safari 4+.
 
-      :styleguide: 1.0
+    :styleguide: 1.0
     */
 
     .btn {
