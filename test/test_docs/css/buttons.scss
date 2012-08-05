@@ -1,0 +1,36 @@
+/* 
+:description: 
+This is Buttons styles sheet 
+
+:modifiers:
+.btn    - Standard button with gradient
+.btn-success - Green button (Indicates a successful or positive action)
+
+:html:
+<div>
+  <p>Exmaple</p>
+</div>
+
+:experimental:
+An alternative signup button styling used in AB Test #195.
+
+:deprecated:
+Styling for legacy wikis. We'll drop support for these wikis on July 13, 2007.
+
+:compatible: 
+in IE6+, Firefox 2+, Safari 4+.
+
+:styleguide: 1.0
+*/
+
+.btn {
+  display: inline-block;
+}
+
+.btn:hover {
+  text-decoration: none;
+}
+
+.btn.active, .btn:active {
+  text-decoration: none;
+}
